@@ -1,0 +1,92 @@
+  
+*{
+    margin: 0;
+    padding: 0;
+    font-family:微軟正黑體;
+    padding-top: 0px;
+   
+}
+body{
+    background-color: #324651;
+    background-size: 300px;
+    height:50000vh;
+}
+nav{
+    display: grid;
+    grid-template-columns: 15% 10% 10% 10% 10% 10% 10% 10% 15%;
+    padding: 30px 5px;
+    align-items: baseline;
+    position: fixed;
+    z-index: 1;
+    background:white;
+    width:100%;
+    border-bottom:1px solid black;
+    font-size: 30px;
+    text-align: center;
+
+    a{
+        text-decoration: none;
+        color:black;     
+    }
+}
+
+#banner{    
+    height: 100vh;
+    img{
+        padding-top: 300px;
+        
+    }
+    .slick-slide {
+        width: 300px;
+    }
+       
+}
+@mixin section-box {
+    overflow: hidden;
+    display: grid;
+   grid-template-columns: repeat(2, 1fr);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    text-align: center;
+    margin-top: 100px;
+    padding: 80px 0;
+    color: black;
+}
